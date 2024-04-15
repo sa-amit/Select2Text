@@ -1,0 +1,13 @@
+OUTPUT1.txt #~# SELECT <FIELD1, FIELD2, ....> 
+FROM <TABLES> 
+WHERE <CONDITIONS> #~#
+
+OUTPUT2.txt #~# SELECT <F1, F2, F3, >
+FROM <T1, T2, T3>
+WHERE <JOINS AND CONDITIONS>
+ORDER BY <F1, F2> #~#
+
+FILE_OUT3.csv #~# select * from abc 
+where a=1 #~#
+
+

@@ -1,0 +1,27 @@
+# General text file parameters
+CSV_DELIMITER = |
+QUERY_DELIMITER = #~#
+
+# Output file name and query is stored in the file below
+VIEWS_TXT = views1.txt
+
+# Source selection 
+DB_SOURCE = 1
+
+# Output file path
+FILE_PATH = D:\\Data
+
+# DB connection parameters 1 (DB_SOURCE = 1)
+JDBC_DRIVER1 = com.sybase.jdbc3.jdbc.SybDriver
+DB_URL1 = jdbc:sybase:Tds:<server_ip>:<port>/<DB>
+DB_USER1 = <USER>
+DB_PASSWORD1 = <PASSWORD>
+
+# DB connection parameters 2 (DB_SOURCE = 2)
+JDBC_DRIVER2 = oracle.jdbc.driver.OracleDriver
+DB_URL2 = jdbc:oracle:thin:<server_ip>:<port>:<DB>
+DB_USER2 = <USER>
+DB_PASSWORD2 = <PASSWORD>
+
+#For comments and suggestions please contact -
+INFO = Amit Saxena (Released 26 Feb 10)
